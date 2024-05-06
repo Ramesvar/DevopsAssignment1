@@ -16,9 +16,10 @@ features= "src/test/resources/org/feature",plugin = "pretty",monochrome = true)
 //plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"})
 public class JunitRunner {
 		
-        @AfterClass
-        public static void writeExtentReport() {
-        }   
-        
+  
+          @AfterClass
+-        public static void writeExtentReport() {
+-        }
+
    
 }
