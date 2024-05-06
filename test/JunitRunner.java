@@ -17,9 +17,7 @@ features= "src/test/resources/org/feature",plugin = "pretty",monochrome = true)
 public class JunitRunner {
 		
   
-          @AfterClass
--        public static void writeExtentReport() {
--        }
+
 
    
 }
